@@ -1,0 +1,30 @@
+{
+	"name": "first-project",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"lint": "eslint . --ext .js,.jsx --fix"
+	},
+	"dependencies": {
+		"-": "^0.0.1",
+		"D": "^1.0.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "1.2.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.5.1",
+		"eslint-plugin-node": "11.1.0",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-react": "^7.31.11",
+		"prettier": "^2.5.1",
+		"vite": "^2.9.15"
+	}
+}
